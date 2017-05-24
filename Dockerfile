@@ -9,6 +9,5 @@ ENV PATH = $PATH:$ODRIVEAGENT/bin/
 
 # Run the odrive Sync Agent server in the background
 # ENTRYPOINT $HOME/.odrive-agent/bin/
-#WORKDIR $HOME/.odrive-agent/bin/
-WORKDIR $HOME
+
 CMD nohup "odriveagent" > odriveagent.log &
