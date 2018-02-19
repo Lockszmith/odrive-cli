@@ -1,9 +1,16 @@
+# work in progress
+forked from cszubert and cyotee to make it more automated and self-sufficient.
+can be configured and defined and ready to run with one command line or docker-compose service
+
+# Instructions below have not been revised yet.
+# ======================================
+
 # odrive-cli
 Runs odrive Sync Agent CLI in an official python based docker container.
 ## Usage
 ### Start odrive container
 ```
-docker run --rm --name odrive-cli -v $PWD:/odrive cszubert/odrive-cli
+docker run --rm --name odrive-cli -v $PWD:/odrive lksz/odrive-cli
 ```
 Next enter the container from anothe shell
 ```
